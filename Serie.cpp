@@ -81,7 +81,7 @@ std::string Serie::str() {
         for (int i = 0; i < cantidad; i++) {
             episodiosInfo =  episodiosInfo + '\n' + episodios[i].getTitulo() + ' ' + std::to_string(episodios[i].getTemporada()) + ' ' + std::to_string(episodios[i].getCalificacion());
         }
-        return serieInfo + episodiosInfo;
+        return serieInfo + episodiosInfo + '\n';
     }
     return serieInfo;
 }
