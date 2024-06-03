@@ -44,7 +44,7 @@ public:
 
     //Otros métodos
     double calculaPromedio();
-    double calculaDuracion();
+    void calculaDuracion();
     std::string str();
     void agregaEpisodio(Episodio episodio);
 };

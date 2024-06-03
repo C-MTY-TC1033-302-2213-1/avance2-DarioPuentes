@@ -65,7 +65,7 @@ double Serie::calculaPromedio(){
     }
 }
 
-double Serie::calculaDuracion(){
+void Serie::calculaDuracion(){
     int totalDuracion = 0;
     for (int index = 0; index < cantidad; index++) {
         totalDuracion += episodios[index].getTemporada();
