@@ -75,7 +75,7 @@ void Serie::calculaDuracion(){
 
 //Overriding del metodo str() de la clase Base
 std::string Serie::str() {
-    std::string serieInfo = '\n' + iD + ' ' + titulo + ' ' + std::to_string(duracion) + ' ' + genero + ' ' + std::to_string(calificacion) + ' ' + std::to_string(cantidad);
+    std::string serieInfo = iD + ' ' + titulo + ' ' + std::to_string(duracion) + ' ' + genero + ' ' + std::to_string(calificacion) + ' ' + std::to_string(cantidad);
     if (cantidad > 0) {
         std::string episodiosInfo;
         for (int i = 0; i < cantidad; i++) {
